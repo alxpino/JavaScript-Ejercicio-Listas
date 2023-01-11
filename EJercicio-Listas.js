@@ -26,8 +26,6 @@ listaDeCompras.push("Aceite de Girasol");
 
 listaDeCompras.pop();
 
-//console.log(listaDeCompras);
-
 let peliculas = [
     {
         titulo: "Mission: Impossible: Ghost Protocol", 
@@ -45,7 +43,8 @@ let peliculas = [
         fecha: "2005"
     }
 ]
-//console.log(peliculas)
+
+
 //- Una nueva lista que contenga las películas posteriores al 1 de enero de 2010 (utilizando filter)
 let peliculasPost2010 = peliculas.filter(obj => obj.fecha > 2010)
 //console.log(peliculasPost2010);
